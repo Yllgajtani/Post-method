@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Availability Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>What times are you available?</h1>
+        <p>Please select all that apply:</p>
+        <form action="/submit_answer" method="POST">
+            <div class="day">
+                <label for="Monday">Monday</label>
+                <input type="checkbox" name="answer" id="Monday1" value="Monday">
+                <input type="checkbox" name="answer" id="Monday2" value="Monday">
+            </div>
+            <div class="day">
+                <label for="Tuesday">Tuesday</label>
+                <input type="checkbox" name="answer" id="Tuesday1" value="Tuesday">
+                <input type="checkbox" name="answer" id="Tuesday2" value="Tuesday">
+            </div>
+            <div class="day">
+                <label for="Wednesday">Wednesday</label>
+                <input type="checkbox" name="answer" id="Wednesday1" value="Wednesday">
+                <input type="checkbox" name="answer" id="Wednesday2" value="Wednesday">
+            </div>
+            <div class="day">
+                <label for="Thursday">Thursday</label>
+                <input type="checkbox" name="answer" id="Thursday1" value="Thursday">
+                <input type="checkbox" name="answer" id="Thursday2" value="Thursday">
+            </div>
+            <div class="day">
+                <label for="Friday">Friday</label>
+                <input type="checkbox" name="answer" id="Friday1" value="Friday">
+                <input type="checkbox" name="answer" id="Friday2" value="Friday">
+            </div>
+            <input type="submit" value="Submit" class="submit-button">
+        </form>
+    </div>
+</body>
+</html>
